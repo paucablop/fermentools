@@ -1,0 +1,16 @@
+name: Build Docs and Open PR
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Python Markdown Documentation
+      uses: paucablop/markdown-docs@v0.0.2
+    - name: Open docs update PR
+      uses: peter-evans/create-pull-request@v4.0.4
+

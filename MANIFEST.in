@@ -1,0 +1,4 @@
+include dtuprosys/datasets/data/train_spectra.csv
+include dtuprosys/datasets/data/train_hplc.csv
+include dtuprosys/datasets/data/fermentation_spectra.csv
+include dtuprosys/datasets/data/fermentation_hplc.csv
