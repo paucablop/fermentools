@@ -20,14 +20,15 @@ scikit-learn = "*"
 scipy = "*"
 six = "==1.16.0"
 threadpoolctl = "==3.1.0"
-kineticmodels = "==0.0.12"
+kineticmodels = "==0.0.10"
+packaging = "==21.3"
 
 [dev-packages]
 ipykernel = "*"
 black = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.10"
 
 [pipenv]
 allow_prereleases = true
